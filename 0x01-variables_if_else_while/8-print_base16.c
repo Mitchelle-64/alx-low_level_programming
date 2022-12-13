@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * return: always 0 (success)
+ * Return: Always 0 (Success)
  *
  */
 
@@ -11,12 +11,12 @@ int main(void)
 	char num;
 	char lett;
 
-	for (num = 0; num <= 9; num++)
+	for (num = '0'; num <= '9'; num++)
 {
 	putchar(num);
 }
 
-	for (lett = 'A'; lett <= 'F'; lett++)
+	for (lett = 'a'; lett <= 'f'; lett++)
 {
 	putchar(lett);
 }
