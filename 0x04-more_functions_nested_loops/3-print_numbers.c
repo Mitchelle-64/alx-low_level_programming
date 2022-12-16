@@ -3,7 +3,7 @@
  *print_number - prints the digits 1-9
  */
 
-void print_number(void)
+void print_numbers(void)
 {
 	int i = 0;
 
