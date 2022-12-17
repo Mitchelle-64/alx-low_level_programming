@@ -14,9 +14,10 @@ void print_square(int size)
 		_putchar('\n');
 	else
 	{
-		for (col = 0 ; col <= size; col++)
+		for (col = 1 ; col <= size; col++)
 		{
-			for (row = 0; row <= size; row++)
+			_putchar('#');
+			for (row = 2; row <= size; row++)
 				_putchar('#');
 		}
 			_putchar('\n');
